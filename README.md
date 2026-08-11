@@ -1,5 +1,11 @@
 # nvim-config
 
+## Requirements
+
+- FZF
+- tree-sitter
+- pynvim (for Ultisnips)
+
 ## Installation
 
 Clone into `~/.config/nvim`.
