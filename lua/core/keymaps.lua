@@ -271,6 +271,49 @@ function M.setup()
 
 
 
+    -- -------- Obsidian --------
+
+    -- Obsidian follow link
+    map({ "n", "v" }, "<leader>o]", "<cmd>Obsidian follow_link<CR>", "Follow link")
+
+    -- Obsidian toc
+    map({ "n", "v" }, "<leader>oc", "<cmd>Obsidian toc<CR>", "Table of contents")
+
+    -- Obsidian daily note
+    map({ "n", "v" }, "<leader>od", "<cmd>Obsidian today<CR>", "Daily note")
+
+    -- Obsidian extract note
+    map({ "n", "v" }, "<leader>oe", "<cmd>Obsidian extract_note<CR>", "Extract text into note")
+
+    -- Obsidian hash tags
+    map({ "n", "v" }, "<leader>oh", "<cmd>Obsidian tags<CR>", "Hash tags")
+
+    -- Obsidian all links
+    map({ "n", "v" }, "<leader>ola", "<cmd>Obsidian links<CR>", "All links")
+
+    -- Obsidian backlinks
+    map({ "n", "v" }, "<leader>olb", "<cmd>Obsidian backlinks<CR>", "Backlinks")
+
+    -- Obsidian create link
+    map({ "n", "v" }, "<leader>oll", "<cmd>Obsidian link<CR>", "Link the text to a note")
+
+    -- Obsidian create new note and link
+    map({ "n", "v" }, "<leader>oln", "<cmd>Obsidian link_new<CR>", "Link the text to a new note")
+
+    -- Obsidian more actions
+    map({ "n", "v" }, "<leader>om", ":=vim.lsp.buf.code_action()<CR>", "More actions...")
+
+    -- Obsidian new note
+    map({ "n", "v" }, "<leader>on", "<cmd>Obsidian new_from_template<CR>", "New note")
+
+    -- Obsidian rename
+    map({ "n", "v" }, "<leader>or", "<cmd>Obsidian rename<CR>", "Rename note")
+
+    -- Obsidian template
+    map({ "n", "v" }, "<leader>ot", "<cmd>Obsidian template<CR>", "Template")
+
+
+
     -- -------- MISC --------
 
     -- Change to the buffer working directory
