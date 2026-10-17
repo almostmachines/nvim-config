@@ -170,6 +170,9 @@ function M.setup()
     -- Set spell check language
     opt.spelllang = { "en_us" }
 
+    -- Set conceal level for obsidian.nvim features, not sure what this does
+    opt.conceallevel = 2
+
 
 
     -- ---------- FILETYPES ----------
