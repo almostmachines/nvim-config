@@ -171,6 +171,9 @@ function M.setup()
     -- Paste image using img-clip
     map("n", "<leader>v", "<cmd>PasteImage<cr>", "Paste image from system clipboard")
 
+    -- Close all other panes
+    map("n", "<leader>0", ":on<CR>", "Close all other panes")
+
 
 
     -- -------- GIT --------
