@@ -28,7 +28,8 @@ return function()
             name = "snacks.picker",
         },
         link = {
-            style = "markdown"
+            style = "markdown",
+            format = "absolute",
         },
         note = {
             template = vim.NIL, -- disables the default note template and just use a blank note
